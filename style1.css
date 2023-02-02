@@ -1,0 +1,143 @@
+*
+{
+    margin: 0;
+    padding: 0;
+}
+
+.login
+{
+    width:400px;
+    height: 290px;
+    margin: 0 auto;
+    margin-top: 80px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    padding-left: 10px;
+    
+
+}
+
+h3{
+
+    padding-top: 20px;
+    text-align: center;
+    font-family: 'Roboto';
+    color: rgba(0, 0, 0, 0.689);
+}
+form
+{
+    margin-top: 10px;
+}
+
+.f-1 p
+{
+    font-family: 'Roboto';
+}
+.f-1 input
+{
+    width:380px;
+    height: 20px;
+}
+.f-3 input
+{
+    
+    padding-top: 0px;
+    text-align: center;
+    justify-content: center;
+}
+.f-4
+{
+    width:98%;
+    background-color:  #009999;
+  height: 25px;
+
+   
+}
+
+.f-4 button
+{
+    margin-left: 170px;
+    background-color:  #009999;
+    border: 1px solid  #009999;
+    padding-top:5px;
+
+}
+.f-5
+{
+    font-family: 'Roboto';
+}
+
+.back 
+{
+    display: flex;
+    justify-content:end;
+    
+    color: grey;
+    font-size: 35px;
+    
+    margin-right: 50px;
+    margin-top: 10px;
+    text-decoration: none;
+    cursor: pointer;
+  
+  
+}
+
+
+.forget 
+{
+    width:300px;
+    height: 25px;
+    margin-left: 180px;
+    margin-top: 22px;
+    padding: 0px 10px;
+    margin-bottom: 10px;
+}
+
+.cancel
+{
+   
+    border: 1px solid grey;
+    border-radius: 10px;
+    padding: 8px 8px;
+  
+   
+}
+
+.head
+{
+    font-size: 17px;
+    margin-left: 20px;
+    text-align: center;
+    margin-top: 100px;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.submit
+{
+    
+    border: 1px solid grey;
+    border-radius: 10px;
+    background-color: rgba(0, 0, 255, 0.968);
+    padding: 8px 8px;
+    margin-right: 10px;
+   
+   
+}
+
+.com
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 160px;
+   
+    
+}
+
+.name
+{ 
+    margin: 0px 190px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    height: 200px;
+
+}

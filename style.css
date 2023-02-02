@@ -1,0 +1,626 @@
+*
+{
+    margin: 0;
+    padding: 0;
+   
+    
+    
+}
+
+.start
+{
+    width:100%;
+    
+   
+   
+   
+   
+}
+a{
+    text-decoration: none;
+}
+header
+{
+    padding-top:20px;
+    top:0;
+    position: fixed;
+    
+    width: 100%;
+    z-index: 1000;
+    
+    background-color: white;
+   
+    
+}
+.sec-1
+{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin:0px 50px;
+    
+    
+    
+}
+span
+{
+    font-family: 'Roboto';
+    font-size: 17px;
+    color:black
+   
+}
+.p-1
+{
+    margin-left: 60px;
+}
+.p-1 i
+{
+    color:  #009999;
+}
+
+.p-2 input
+{
+    width:400px;
+    height: 22px;
+}
+.p-2 i
+{
+    position: relative;
+    left:-25px;
+}
+
+.p-3 i
+{
+    margin:0px 8px;
+    color: black;
+}
+.sec-2
+{
+   /* background-color: rgba(18, 193, 135, 0.715);*/
+   background-color: #009999;
+    height: 36px;
+    display: flex;
+   align-items: center;
+   justify-content: center;
+   margin-top: 10px;
+   
+   
+}
+ul
+{
+    display: flex;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+}
+li
+{
+    margin: 0px 8px;
+   color: aliceblue;
+    font-family: 'Roboto';
+    font-size: 15px;
+}
+.sections 
+{
+    display: flex;
+    background-image: url(https://t4.ftcdn.net/jpg/03/22/75/05/360_F_322750552_2a0DrgIvY7pZvs5dJyhBmpCabusROlBG.jpg);
+    height: 300px;
+    margin-top: 100px;
+    
+}
+.left
+{
+    margin-top:90px;
+    margin-left:70px;
+}
+
+.left h4
+{
+    text-align: left;
+    font-family: 'Roboto';
+    font-size: 30px;
+}
+.left p
+{
+    line-height: 22px;
+    text-align: left;
+    font-family: 'Roboto';
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+
+.left a{
+    background-color:  #009999;
+    color:aliceblue;
+    border :1px solid  #009999;
+    padding:5px 5px;
+   
+   
+}
+
+.book
+{
+    display:flex;
+    margin-top: 50px;
+    margin-left: 30px;
+   
+}
+
+.book img{
+    width:60px;
+    height:100px;
+    /*box-shadow: -10px 0px 10px white; */
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    margin:0px 5px;
+    
+}
+.bookshelf
+{
+    width:400px;
+    height:100px;
+    
+}
+.icon
+{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 140px;
+}
+
+ .c-1
+{
+ margin:0px 30px;
+}
+.c-1 i
+{
+    color: #009999;
+   
+    
+    
+}
+.c-1 p span
+{
+    font-family: 'Roboto';
+}
+
+
+.c-1 p
+{
+    margin-left: 18px;
+    font-size: 13px;
+    margin-top: 5px;
+}
+
+.feature
+{
+    margin-top: 100px;
+    
+}
+
+.fea 
+{
+   
+   display: flex;
+   justify-content: center;
+   align-items: center;
+  
+   
+}
+.fea h4
+{
+   
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    font-family: 'Roboto';
+
+    
+    
+
+}
+
+.fea h4::after,.fea h4::before
+{
+    content: "";
+    height: 1px;
+    background-color: grey;
+    display: block;
+}
+
+
+
+
+.k-1
+{
+    /*margin-left: 50px;*/
+    text-align: center;
+   
+    
+    
+}
+.k-1 i
+{
+    margin: 0px 7px;
+}
+
+.books
+{
+   display: flex;
+   /*margin-left: 5px;*/
+   margin-left: 15px;
+   margin-top: 20px;
+   width: 80%;
+ 
+  
+}
+
+.b-1
+{
+    border:1px solid grey;
+    margin:0px 2px;
+    height:290px;
+    width:190px;
+    
+  
+   
+}
+.b-1 img
+{
+    width:100px;
+    height:150px;
+    margin: 8px 51px;
+    text-align: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   
+}
+
+.b-1 p
+{
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Roboto';
+}
+.b-1 span
+{
+    font-size: 10px;
+    margin-left: 10px;
+    font-family: 'Roboto';
+}
+
+.b-1 a
+{
+    background-color:  #009999;
+    color: aliceblue;
+    margin-left: 55px;
+    padding :5px 5px;
+    font-family: 'Roboto';
+}
+
+.b-1 a:hover
+{
+    background-color: burlywood;
+}
+.b-1 i
+{
+    padding:5px 5px;
+}
+
+.b-1 i:hover
+{
+    background-color:  #009999;
+   
+}
+
+.news
+{
+    background-image: url(https://imageio.forbes.com/specials-images/imageserve/625e1fc23b492de685a2adc7/0x0.jpg?format=jpg&width=1200);
+    height:250px;
+}
+
+.news p
+{
+    left:620px;
+    position: relative;
+    color: aliceblue;
+    top:50px;
+    font-size: 25px;
+    font-family: 'Roboto';
+    display: inline-block;
+    
+}
+
+.news input
+{
+    left:590px;
+    position: relative;
+    color: aliceblue;
+    top:60px;
+    width:350px;
+    height:20px;
+    font-family: 'Roboto';
+}
+.news button
+{
+    left:720px;
+    position: relative;
+   
+    top:80px;
+   background-color:  #009999;
+   color: aliceblue;
+    font-family: 'Roboto';
+    border: 1px solid  #009999;
+    padding :7px 7px;
+}
+
+.arrival 
+{
+    
+    margin-top: 100px;
+    margin-bottom: 10px;
+  
+}
+
+.s-1
+{
+    display: flex;
+}
+
+.v-1
+{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 170px;
+    
+}
+   
+
+
+
+.a-1 img
+{
+    width:90px;
+    height:150px;
+    margin:0px  20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+   
+    
+}
+
+.l-1 p
+{
+  color:grey;
+  font-family: 'Roboto';
+ 
+ 
+}
+
+.l-1 i
+{
+    color:  #009999;
+    font-size: 12px;
+}
+.l-1 del
+{
+    font-size: 12px;
+    padding-left: 8px;
+   
+    
+}
+
+.l-1
+{
+    margin-top: 20px;
+}
+.s-1 
+{
+    border :1px solid rgba(128, 128, 128, 0.973);
+    margin: 0px 5px;
+}
+
+.deal
+{
+    display:flex;
+  margin-top: 50px;
+ 
+}
+
+.d-1
+{
+    margin-left: 80px;
+    text-align: left;
+}
+.d-1 h5
+{
+    color: #009999;
+    padding:5px 5px;
+    font-family: 'Roboto';
+    font-size: 17px;
+}
+
+.d-1 h4
+{
+    font-family: 'Roboto';
+    padding:5px 5px;
+    font-size: 25px;
+}
+.d-1 p
+{
+    line-height: 20px;
+    text-align: left;
+    padding-left:4px;
+    font-size: 12px;
+    font-family: 'Roboto';
+    margin-bottom: 10px;
+    
+}
+.d-1 a
+{
+    background-color:  #009999;
+    color: aliceblue;
+    padding :5px 5px;
+    font-family: 'Roboto';
+    margin-left: 5px;
+   
+}
+
+
+.d-2 img
+{
+    width:250px;
+    height:200px;
+    margin-right: 110px;
+    margin-top: 50px;
+}
+
+
+
+.review
+{
+    display:flex;
+    margin-top: 100px;
+
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+
+.rev h4
+{
+   
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    align-items: center;
+    font-family: 'Roboto';
+
+    
+    
+
+}
+.rev
+{
+   
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   margin-top: 100px;
+  
+   
+}
+
+.rev h4::after,.rev h4::before
+{
+    content: "";
+    height: 1px;
+    background-color: grey;
+    display: block;
+}
+
+
+
+.w-1
+{
+    border:1px solid grey;
+    margin:0px 3px;
+    height:300px;
+    width: 220px;
+    
+
+}
+
+.w-1 img
+{
+    width:50px;
+    height: 50px;
+    border-radius: 50%;
+    border:1px solid white;
+    margin-left: 82px;
+   
+    margin-top:20px;
+}
+
+.w-1 h6
+{
+    font-size: 20px;
+    color: grey;
+    font-family: 'Roboto';
+    text-align: center;
+    margin-top: 5px;
+}
+
+.w-1 p
+{
+    font-family: 'Roboto';
+    font-size: 12px;
+    text-align: center;
+    margin-top: 20px;
+    line-height: 25px;
+    padding: 0px 10px;
+}
+
+.w-1 span
+{
+    left:60px;
+    position: relative;
+    color:  #009999;
+}
+
+.footer
+{
+    display: flex;
+    justify-content: space-evenly;
+    margin: 50px;
+}
+
+
+.m-1 h6
+{
+    font-size: 15px;
+    font-family: 'Roboto';
+    color: gray;
+    padding: 5px;
+    margin-left: 7px;
+}
+.m-1 span
+{
+color :grey;
+font-family: 'Roboto';
+font-size: 13px;
+
+}
+
+.m-1 i
+{
+    color:  #009999;
+   padding:10px 0px;
+   margin-left: 10px;
+}
+
+
+.last
+{
+    text-align: center;
+    font-family: 'Roboto';
+}
+.y-1
+{
+    color: yellowgreen;
+}
+
+.social
+{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.social i
+{
+    border:1px solid  #009999;
+    border-radius: 50%;
+    align-items: center;
+    background-color:  #009999;
+    color: aliceblue;
+    padding:9px 9px;
+    margin: 0px 5px;
+    cursor: pointer;
+}
